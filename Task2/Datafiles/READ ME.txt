@@ -1,0 +1,10 @@
+Load order:
+1. person.sql
+2. student.sql
+3. instructor.sql
+4. address.sql
+5. pricing_scheme.sql
+6. lesson.sql
+7. instruments.sql
+8. rent_instruments.sql
+9. other.sql

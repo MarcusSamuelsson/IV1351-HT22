@@ -1,0 +1,120 @@
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (2332491449,'Nash','Keith'),
+  (6954461296,'Edward','Barton'),
+  (3577247093,'Blythe','Kirkland'),
+  (5140362555,'Jaden','Skinner'),
+  (2855733481,'Lilah','Griffin'),
+  (1344437210,'Jillian','Herring'),
+  (6923971163,'Carson','Jefferson'),
+  (8529355668,'Sopoline','Mcguire'),
+  (544375512,'Wylie','Rivera'),
+  (6879821997,'Jolene','Daniel');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (7495640633,'Iona','Woodward'),
+  (4063136980,'Catherine','Hansen'),
+  (4875993625,'Zahir','Ward'),
+  (6320133345,'Sonya','Jefferson'),
+  (9344222689,'Jackson','Klein'),
+  (2701788073,'Wendy','Walls'),
+  (3248095638,'Magee','Mann'),
+  (2687191459,'Geoffrey','Richardson'),
+  (4663331270,'Levi','Harmon'),
+  (2562551316,'Kim','Schwartz');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (5347158436,'Paloma','Bowman'),
+  (5649519603,'Eric','Mccoy'),
+  (7563851033,'Larissa','Roy'),
+  (9472823066,'Tasha','Whitfield'),
+  (7938316492,'Nina','Landry'),
+  (2629399311,'Kasper','Wilcox'),
+  (4884245816,'Roanna','Waters'),
+  (7364554586,'Aladdin','Bernard'),
+  (9111517545,'Beatrice','Cantu'),
+  (3298469012,'Elvis','Conway');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (9184340553,'Todd','Huffman'),
+  (5507291623,'Oscar','Lopez'),
+  (5412812866,'Shad','Hansen'),
+  (2901877172,'Jack','Cain'),
+  (4188762284,'Cheryl','Carrillo'),
+  (7351123774,'Carla','Petty'),
+  (8570895670,'Aimee','Levy'),
+  (7027360583,'Xaviera','Simmons'),
+  (1042811982,'Wesley','Manning'),
+  (2988318276,'Branden','Molina');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (8824791677,'Bryar','Austin'),
+  (4898677240,'Jeanette','Figueroa'),
+  (9892111191,'Felix','Waters'),
+  (9661740574,'Cherokee','Rodgers'),
+  (9843238828,'Nathan','Acosta'),
+  (4718777515,'Barry','Salinas'),
+  (8562068875,'Kylie','Jacobs'),
+  (3391331278,'Karen','Dawson'),
+  (7961390060,'India','Foster'),
+  (2759875515,'Inez','Holman');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (4877806214,'Hillary','Robles'),
+  (5324975863,'Liberty','Aguirre'),
+  (689655615,'Aurelia','Carpenter'),
+  (5828184253,'Noble','Pugh'),
+  (9550333185,'Patrick','Shields'),
+  (2111552930,'Serina','Morrow'),
+  (856551492,'Destiny','Villarreal'),
+  (410702759,'Abel','Gallegos'),
+  (2434570733,'Brenden','Stewart'),
+  (9124520471,'Olympia','Mcneil');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (7814512015,'Sophia','Horne'),
+  (7120715256,'Maggy','Noble'),
+  (5931103252,'Whitney','Fisher'),
+  (3922071234,'Susan','Morris'),
+  (5070427365,'Herrod','Aguirre'),
+  (7731460798,'Christen','Walker'),
+  (8194643673,'Yoko','Velazquez'),
+  (8114199015,'Salvador','Adkins'),
+  (5472181931,'Thomas','Davis'),
+  (1691018155,'Kuame','Osborne');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (2861807200,'Kai','Burns'),
+  (4738310907,'Thane','Mcfadden'),
+  (3492709372,'Ignacia','Caldwell'),
+  (9980308804,'Dorian','Wiggins'),
+  (698436340,'Dennis','Mercado'),
+  (4207195042,'Leonard','Chang'),
+  (8381621851,'Brenna','Christian'),
+  (3899828053,'Hedda','Cantrell'),
+  (4295584989,'Scarlett','Sanchez'),
+  (6362678911,'Herman','Brady');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (578857613,'Scarlett','Buck'),
+  (8084630085,'Kay','Koch'),
+  (782296855,'Mannix','Mann'),
+  (1920785800,'Hermione','Knowles'),
+  (8922796636,'Francis','Burton'),
+  (1725720078,'Aristotle','Larsen'),
+  (290099201,'Austin','Head'),
+  (8195331714,'Carter','Christensen'),
+  (7695584085,'Rooney','Richard'),
+  (7344263683,'Lane','Martinez');
+INSERT INTO person (personal_number,first_name,last_name)
+VALUES
+  (3898475684,'Alden','Roy'),
+  (7139107708,'Serena','Berry'),
+  (7228284142,'Timon','Collins'),
+  (8765611514,'Kennan','Moon'),
+  (8887730062,'Ayanna','Nielsen'),
+  (8285554642,'Garrison','Kinney'),
+  (9982636086,'Eric','Cotton'),
+  (9989501011,'Sierra','Diaz'),
+  (9458555978,'Randall','Jarvis'),
+  (7615597172,'Joel','Moss');

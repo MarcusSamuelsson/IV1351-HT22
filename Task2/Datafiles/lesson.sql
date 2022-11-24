@@ -1,0 +1,120 @@
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','induvidual','intermediate','classic',17,5,28),
+  (1,1,'2021/10/05','induvidual','intermediate','metal',17,16,33),
+  (1,1,'2021/10/05','induvidual','beginner','rock',45,15,21),
+  (1,1,'2021/10/05','group','beginner','rock',48,5,27),
+  (1,1,'2021/10/05','group','beginner','rock',8,6,29),
+  (1,1,'2021/10/05','group','intermediate','rock',28,10,25),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',32,8,28),
+  (1,1,'2021/10/05','induvidual','beginner','classic',21,11,25),
+  (1,1,'2021/10/05','induvidual','intermediate','metal',39,7,25),
+  (1,1,'2021/10/05','group','intermediate','dance',19,3,35);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (2,2,'2021/10/05','group','beginner','dance',48,7,31),
+  (4,3,'2021/10/05','group','intermediate','house',22,6,29),
+  (1,1,'2021/10/05','group','intermediate','dance',43,1,32),
+  (1,1,'2021/10/05','group','intermediate','metal',41,8,32),
+  (1,1,'2021/10/05','induvidual','beginner','house',7,17,27),
+  (1,1,'2021/10/05','group','beginner','blues',47,6,25),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',42,1,24),
+  (4,6,'2021/10/05','induvidual','intermediate','metal',22,11,25),
+  (12,32,'2021/10/05','group','beginner','dance',18,13,37),
+  (22,54,'2021/10/05','induvidual','beginner','blues',42,10,21);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','group','beginner','classic',10,11,24),
+  (1,1,'2021/10/05','induvidual','beginner','classic',46,5,31),
+  (1,1,'2021/10/05','group','beginner','metal',16,9,31),
+  (1,1,'2021/10/05','induvidual','intermediate','dance',44,8,30),
+  (1,1,'2021/10/05','induvidual','beginner','blues',38,1,32),
+  (1,1,'2021/10/05','group','intermediate','rock',37,3,37),
+  (1,1,'2021/10/05','induvidual','beginner','classic',37,6,26),
+  (1,1,'2021/10/05','group','intermediate','classic',26,3,29),
+  (1,1,'2021/10/05','induvidual','beginner','blues',14,13,35),
+  (1,1,'2021/10/05','group','beginner','dance',41,17,25);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','group','intermediate','house',48,11,32),
+  (1,1,'2021/10/05','group','intermediate','blues',14,0,36),
+  (1,1,'2021/10/05','induvidual','beginner','classic',15,10,21),
+  (1,1,'2021/10/05','group','beginner','rock',12,4,26),
+  (1,1,'2021/10/05','group','intermediate','metal',17,12,40),
+  (1,1,'2021/10/05','induvidual','beginner','metal',28,2,32),
+  (1,1,'2021/10/05','induvidual','beginner','metal',31,18,24),
+  (1,1,'2021/10/05','induvidual','beginner','dance',6,11,23),
+  (1,1,'2021/10/05','group','beginner','rock',19,5,22),
+  (1,1,'2021/10/05','induvidual','beginner','metal',37,15,27);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','group','intermediate','rock',46,14,25),
+  (1,1,'2021/10/05','group','intermediate','classic',7,10,36),
+  (1,1,'2021/10/05','induvidual','beginner','classic',6,14,33),
+  (1,1,'2021/10/05','induvidual','beginner','rock',46,6,20),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',46,6,32),
+  (1,1,'2021/10/05','group','intermediate','house',9,11,36),
+  (1,1,'2021/10/05','group','beginner','house',43,14,23),
+  (1,1,'2021/10/05','group','intermediate','rock',43,5,22),
+  (1,1,'2021/10/05','group','intermediate','metal',8,1,36),
+  (1,1,'2021/10/05','induvidual','intermediate','dance',23,4,20);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','group','intermediate','blues',34,12,36),
+  (1,1,'2021/10/05','induvidual','beginner','classic',32,9,22),
+  (1,1,'2021/10/05','group','beginner','dance',34,3,33),
+  (1,1,'2021/10/05','group','intermediate','blues',48,3,24),
+  (1,1,'2021/10/05','group','beginner','metal',47,19,21),
+  (1,1,'2021/10/05','group','intermediate','blues',38,0,35),
+  (1,1,'2021/10/05','group','beginner','dance',9,14,32),
+  (1,1,'2021/10/05','group','beginner','dance',20,13,27),
+  (1,1,'2021/10/05','group','intermediate','rock',46,2,29),
+  (1,1,'2021/10/05','induvidual','intermediate','blues',27,8,22);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','group','intermediate','dance',35,6,36),
+  (1,1,'2021/10/05','group','intermediate','house',33,12,32),
+  (1,1,'2021/10/05','induvidual','intermediate','classic',18,11,24),
+  (1,1,'2021/10/05','group','beginner','house',46,17,29),
+  (1,1,'2021/10/05','induvidual','intermediate','classic',21,2,23),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',41,7,36),
+  (1,1,'2021/10/05','induvidual','beginner','dance',25,1,37),
+  (1,1,'2021/10/05','group','intermediate','dance',48,9,38),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',32,14,40),
+  (1,1,'2021/10/05','induvidual','beginner','blues',47,5,31);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','induvidual','beginner','metal',38,6,23),
+  (1,1,'2021/10/05','group','beginner','rock',2,2,34),
+  (1,1,'2021/10/05','group','beginner','blues',17,10,37),
+  (1,1,'2021/10/05','group','beginner','dance',8,11,26),
+  (1,1,'2021/10/05','group','intermediate','blues',20,3,22),
+  (1,1,'2021/10/05','induvidual','intermediate','metal',38,10,24),
+  (1,1,'2021/10/05','induvidual','intermediate','classic',3,10,37),
+  (1,1,'2021/10/05','induvidual','intermediate','dance',23,11,27),
+  (1,1,'2021/10/05','induvidual','beginner','metal',31,14,35),
+  (1,1,'2021/10/05','group','intermediate','dance',3,7,38);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','induvidual','beginner','blues',6,10,32),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',45,2,25),
+  (1,1,'2021/10/05','induvidual','beginner','dance',45,2,37),
+  (1,1,'2021/10/05','group','beginner','rock',9,5,27),
+  (1,1,'2021/10/05','induvidual','intermediate','rock',39,20,35),
+  (1,1,'2021/10/05','group','beginner','rock',33,8,34),
+  (1,1,'2021/10/05','induvidual','intermediate','classic',34,6,23),
+  (1,1,'2021/10/05','induvidual','intermediate','classic',47,5,22),
+  (1,1,'2021/10/05','group','intermediate','blues',32,4,30),
+  (1,1,'2021/10/05','group','intermediate','classic',42,11,35);
+INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
+VALUES
+  (1,1,'2021/10/05','induvidual','intermediate','dance',12,19,20),
+  (1,1,'2021/10/05','group','beginner','dance',21,2,23),
+  (1,1,'2021/10/05','group','intermediate','blues',3,16,32),
+  (1,1,'2021/10/05','group','beginner','blues',20,2,32),
+  (1,1,'2021/10/05','group','beginner','classic',8,4,22),
+  (1,1,'2021/10/05','group','beginner','dance',13,8,22),
+  (1,1,'2021/10/05','group','beginner','classic',26,8,37),
+  (1,1,'2021/10/05','group','intermediate','metal',18,2,40),
+  (1,1,'2021/10/05','group','beginner','house',43,4,26),
+  (1,1,'2021/10/05','group','beginner','dance',28,17,23);

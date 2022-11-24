@@ -1,0 +1,120 @@
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (False),
+  (True),
+  (False),
+  (False),
+  (False),
+  (False),
+  (False),
+  (True),
+  (False),
+  (True);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (True),
+  (True),
+  (False),
+  (False),
+  (False),
+  (True),
+  (False),
+  (False),
+  (False),
+  (False);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (True),
+  (True),
+  (True),
+  (False),
+  (True),
+  (False),
+  (False),
+  (True),
+  (False),
+  (False);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (False),
+  (True),
+  (True),
+  (True),
+  (False),
+  (False),
+  (True),
+  (False),
+  (False),
+  (True);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (False),
+  (False),
+  (False),
+  (True),
+  (True),
+  (False),
+  (True),
+  (True),
+  (False),
+  (False);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (True),
+  (False),
+  (False),
+  (True),
+  (True),
+  (False),
+  (False),
+  (False),
+  (True),
+  (True);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (True),
+  (False),
+  (True),
+  (True),
+  (True),
+  (False),
+  (True),
+  (True),
+  (True),
+  (False);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (False),
+  (True),
+  (True),
+  (False),
+  (True),
+  (True),
+  (False),
+  (True),
+  (True),
+  (True);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (True),
+  (True),
+  (False),
+  (False),
+  (False),
+  (False),
+  (False),
+  (True),
+  (False),
+  (True);
+INSERT INTO instructor (can_hold_ensambles)
+VALUES
+  (False),
+  (False),
+  (False),
+  (True),
+  (False),
+  (True),
+  (False),
+  (True),
+  (True),
+  (False);

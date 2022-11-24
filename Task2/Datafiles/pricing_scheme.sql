@@ -1,0 +1,120 @@
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (501,1,40,152,375),
+  (84,97,49,166,964),
+  (271,7,16,148,975),
+  (552,88,95,173,274),
+  (985,93,79,167,208),
+  (306,28,78,176,418),
+  (955,1,88,158,836),
+  (882,62,69,157,828),
+  (194,41,10,180,124),
+  (702,54,60,143,301);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (815,50,2,172,171),
+  (549,18,38,188,234),
+  (855,57,70,116,905),
+  (541,74,88,138,714),
+  (933,5,19,187,483),
+  (200,35,82,108,628),
+  (965,45,66,136,345),
+  (470,85,41,107,218),
+  (52,69,65,192,567),
+  (660,62,82,150,257);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (210,63,12,110,983),
+  (335,79,94,136,572),
+  (155,80,47,170,890),
+  (633,77,37,188,944),
+  (55,70,52,100,865),
+  (424,95,80,112,944),
+  (851,90,80,129,713),
+  (192,36,66,121,510),
+  (968,68,21,196,892),
+  (962,92,95,101,678);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (232,50,82,196,320),
+  (293,7,71,181,154),
+  (308,95,65,166,358),
+  (46,17,75,126,717),
+  (85,40,99,105,658),
+  (789,51,9,112,734),
+  (635,74,15,186,406),
+  (131,39,62,108,182),
+  (973,50,2,155,413),
+  (20,31,79,135,242);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (813,87,30,177,407),
+  (233,68,73,158,424),
+  (512,85,80,119,349),
+  (882,67,88,126,461),
+  (807,19,56,115,298),
+  (219,34,94,143,123),
+  (116,95,3,135,422),
+  (112,58,85,113,147),
+  (200,18,48,131,996),
+  (101,44,68,113,733);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (396,37,86,192,697),
+  (89,66,80,175,345),
+  (647,41,65,165,812),
+  (358,24,81,165,461),
+  (824,54,73,122,328),
+  (59,57,29,103,680),
+  (73,78,14,116,659),
+  (411,69,98,199,600),
+  (615,83,5,141,515),
+  (468,8,37,150,425);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (632,99,88,157,447),
+  (93,13,67,165,286),
+  (690,6,73,168,371),
+  (708,12,43,125,996),
+  (309,65,84,166,590),
+  (785,65,56,157,165),
+  (635,56,9,152,531),
+  (354,40,25,123,175),
+  (904,46,96,131,480),
+  (101,78,31,146,341);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (31,87,43,157,926),
+  (435,52,86,110,303),
+  (604,69,10,149,870),
+  (755,56,52,108,732),
+  (792,86,72,155,217),
+  (316,75,54,179,806),
+  (468,76,73,121,521),
+  (769,35,9,184,783),
+  (624,4,58,170,377),
+  (571,80,96,144,502);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (187,47,81,144,785),
+  (186,24,35,183,916),
+  (915,23,30,164,519),
+  (637,18,67,163,900),
+  (286,10,19,164,516),
+  (410,52,100,101,121),
+  (48,68,62,161,969),
+  (888,78,75,191,572),
+  (686,24,57,116,776),
+  (116,45,64,146,241);
+INSERT INTO pricing_scheme (base_price,sibling_discount,intermediate_charge,advanced_charge,instructor_payment)
+VALUES
+  (870,12,59,188,715),
+  (723,32,50,155,516),
+  (491,30,75,189,722),
+  (103,72,83,148,280),
+  (868,13,76,158,212),
+  (290,21,85,170,304),
+  (679,46,96,153,439),
+  (416,57,60,124,976),
+  (273,84,85,100,191),
+  (253,60,18,124,475);
