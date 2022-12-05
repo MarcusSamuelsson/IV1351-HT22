@@ -5,14 +5,14 @@ CREATE VIEW lesson_per_month AS
     count(lesson_type) FILTER (WHERE lesson_type = 'ensemble') as ensemble 
     FROM lesson WHERE EXTRACT(year FROM time) = '2021' GROUP BY EXTRACT(MONTH FROM time) ORDER BY EXTRACT(MONTH FROM time) ASC;
 
-CREATE VIEW student_nr_of_siblings
+CREATE VIEW student_nr_of_siblings AS
     SELECT nr_of_siblings, count(1) as students_with_nr_of_siblings 
     FROM (SELECT count(sibling.student_id) 
         FROM student LEFT JOIN sibling ON student.student_id = sibling.student_id  
         GROUP BY student.student_id) as nr_of_siblings 
     GROUP BY nr_of_siblings ORDER BY nr_of_siblings ASC;
 
-CREATE VIEW instructor_holding_lessons
+CREATE VIEW instructor_holding_lessons AS
     SELECT lesson.instructor_id, count(lesson.instructor_id) 
     FROM lesson LEFT JOIN instructor ON instructor.instructor_id = lesson.instructor_id 
     WHERE EXTRACT(month FROM time) = EXTRACT(month FROM now()) AND EXTRACT(year FROM time) = EXTRACT(year FROM now()) 
