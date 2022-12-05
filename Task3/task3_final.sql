@@ -6,11 +6,11 @@ CREATE VIEW lesson_per_month AS
     FROM lesson WHERE EXTRACT(year FROM time) = '2021' GROUP BY EXTRACT(MONTH FROM time) ORDER BY EXTRACT(MONTH FROM time) ASC;
 
 CREATE VIEW student_nr_of_siblings AS
-    SELECT nr_of_siblings, count(1) as students_with_nr_of_siblings 
-    FROM (SELECT count(sibling.student_id) 
+    SELECT nr_of_siblings.total as total_siblings, count(1) as students_with_nr_of_siblings 
+    FROM (SELECT count(sibling.student_id) as total 
         FROM student LEFT JOIN sibling ON student.student_id = sibling.student_id  
         GROUP BY student.student_id) as nr_of_siblings 
-    GROUP BY nr_of_siblings ORDER BY nr_of_siblings ASC;
+    GROUP BY total_siblings ORDER BY total_siblings ASC;
 
 CREATE VIEW instructor_holding_lessons AS
     SELECT lesson.instructor_id, count(lesson.instructor_id) 
