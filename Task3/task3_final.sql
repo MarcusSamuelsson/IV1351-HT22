@@ -22,9 +22,9 @@ CREATE VIEW instructor_holding_lessons AS
 CREATE MATERIALIZED VIEW upcoming_ensembles AS
     SELECT lesson_type, genre, time, 
     CASE 
-        WHEN nr_of_students::INTEGER = minimum_nr_of_students::INTEGER THEN 'full' 
-        WHEN nr_of_students::INTEGER = minimum_nr_of_students::INTEGER - 1 THEN 'One seat left' 
-        WHEN nr_of_students::INTEGER = minimum_nr_of_students::INTEGER - 2 THEN 'Two seats left' 
+        WHEN nr_of_students::INTEGER = maximum_nr_of_students::INTEGER THEN 'full' 
+        WHEN nr_of_students::INTEGER = maximum_nr_of_students::INTEGER - 1 THEN 'One seat left' 
+        WHEN nr_of_students::INTEGER = maximum_nr_of_students::INTEGER - 2 THEN 'Two seats left' 
         ELSE 'More than two seats left' 
     END as seats_left 
     FROM lesson WHERE EXTRACT(week FROM time) = EXTRACT(week FROM now()) + 1 AND EXTRACT(year FROM time) = EXTRACT(year FROM now()) AND lesson_type = 'ensemble' ORDER BY genre, EXTRACT(day FROM time);

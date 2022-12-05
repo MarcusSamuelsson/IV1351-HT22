@@ -611,12 +611,12 @@ VALUES
   (3,1,'2021/10/03','induvidual','intermediate','classic',17,5,28),
   (1,1,'2021/10/05','induvidual','intermediate','metal',17,16,33),
   (2,1,'2020/07/03','induvidual','beginner','rock',45,15,21),
-  (1,1,'2021/10/05','ensemble','beginner','rock',48,5,27),
+  (1,1,'2021/10/05','ensemble','beginner','rock',27,5,27),
   (6,1,'2020/10/03','group','beginner','rock',8,6,29),
   (1,1,'2021/12/03','group','intermediate','rock',28,10,25),
-  (1,1,'2020/10/05','ensemble','intermediate','rock',32,8,28),
+  (1,1,'2022/12/13','ensemble','intermediate','rock',20,8,28),
   (1,1,'2021/07/05','induvidual','beginner','classic',21,11,25),
-  (1,1,'2020/10/05','induvidual','intermediate','metal',39,7,25),
+  (1,1,'2022/12/16','ensemble','intermediate','metal',25,7,25),
   (1,1,'2020/10/03','group','intermediate','dance',19,3,35);
 INSERT INTO lesson (instructor_id,price_type_id,time,lesson_type,experience_level,genre,nr_of_students,minimum_nr_of_students,maximum_nr_of_students)
 VALUES
@@ -626,7 +626,7 @@ VALUES
   (1,1,'2021/10/05','group','intermediate','metal',41,8,32),
   (1,1,'2021/07/03','induvidual','beginner','house',7,17,27),
   (1,1,'2019/10/05','group','beginner','blues',47,6,25),
-  (1,1,'2022/12/06','ensemble','intermediate','rock',42,1,24),
+  (1,1,'2022/12/14','ensemble','intermediate','rock',22,1,24),
   (4,6,'2019/10/05','induvidual','intermediate','metal',22,11,25),
   (12,32,'2021/10/03','group','beginner','dance',18,13,37),
   (22,54,'2019/07/05','induvidual','beginner','blues',42,10,21);
@@ -649,7 +649,7 @@ VALUES
   (1,1,'2020/10/02','induvidual','beginner','classic',15,10,21),
   (1,1,'2021/07/01','group','beginner','rock',12,4,26),
   (11,1,'2020/05/05','group','intermediate','metal',17,12,40),
-  (1,1,'2020/12/02','ensemble','beginner','metal',28,2,32),
+  (1,1,'2022/12/14','ensemble','beginner','metal',31,2,32),
   (1,1,'2021/05/05','induvidual','beginner','metal',31,18,24),
   (1,1,'2020/10/02','induvidual','beginner','dance',6,11,23),
   (23,1,'2021/05/05','group','beginner','rock',19,5,22),
